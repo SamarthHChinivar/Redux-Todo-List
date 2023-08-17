@@ -9,7 +9,7 @@ function App() {
         <form>
           <input 
             type='text'
-            placeholder='Enter a Todo'
+            placeholder='Enter Todo'
             style={{
               width: 350,
               padding: 10,
@@ -50,7 +50,7 @@ function App() {
             >
               Delete
             </button>
-            
+
           </li>
         </ul>
 
