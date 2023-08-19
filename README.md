@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Redux Todo List:
+- Todo List was created using Redux and React only for practice or understanding purposes.
+- Todo list web app for daily use is available on this <a href='https://github.com/SamarthHChinivar/todo-react' target='_blank'>repo</a> and it's live on this <a href='https://samarthhchinivar.github.io/todo-react' target='_blank'>website</a>.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
