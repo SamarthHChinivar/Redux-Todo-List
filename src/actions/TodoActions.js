@@ -15,7 +15,7 @@ export const AddTodoAction = (todo) => (dispatch, getState) => {
 
     /* LOGIC PART of this ACTION  AddTodoAction starts here: */
 
-    //Checking whether todo arg. is present or not in the state :
+    //Checking whether arg. todo is present or not in the state :
 
      /* find() method takes a callback function as an argument. For any doubts checkout find.js file in this project, which is present outside src folder. */
     const hasTodo = todos.find((i)=> i.todo === todo);
@@ -37,6 +37,7 @@ export const RemoveTodoAction = (todo) => (dispatch, getState) => {
 
     dispatch({
         type: 'REMOVE_TODO',
-        payload: todos.filter((t)=> t.id !== todo.id) 
+        //Checking the condition to return the remaining todos except the one which is to be deleted.
+        payload: todos.filter((t)=> t.id !== todo.id)
     });
 }
